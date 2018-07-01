@@ -1,0 +1,16 @@
+{
+  "name": "myu-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc; node bin/index.js"
+  },
+  "dependencies": {
+    "inquirer": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^10.5.1",
+    "@types/inquirer": "^0.0.42"
+  }
+}
