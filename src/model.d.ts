@@ -1,17 +1,17 @@
 declare enum Options {
     CONTROLLER = 0,
-    MIDDLEWARE = 1,
+    MIDDLEWARE = 1
 }
 declare enum Side {
     CLIENT = 0,
-    SERVER = 1,
+    SERVER = 1
 }
 declare enum InquirerType {
     INPUT = "input",
     CONFIRM = "confirm",
     LIST = "list",
     RAWLIST = "rawlist",
-    PASSWORD = "password",
+    PASSWORD = "password"
 }
 interface ControllerConfig {
     option: Options.CONTROLLER;
@@ -23,3 +23,4 @@ interface MiddlewareConfig {
     cenas: string;
 }
 export { Options, Side, InquirerType, ControllerConfig, MiddlewareConfig };
+ 

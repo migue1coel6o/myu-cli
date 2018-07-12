@@ -7,5 +7,5 @@ export default class ProgressBar implements ProgressBarInterface {
     private getText;
     private timeoutFunc;
     updateProgressBar: (perc: number, label: string, cont?: number) => void;
-    startProgressBar: (label?: string, cenas?: string) => void;
+    startProgressBar: (label?: string) => void;
 }
